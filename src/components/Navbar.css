@@ -1,0 +1,40 @@
+/* Navbar.css */
+/* Aplicar estilos a la navbar */
+.navbar {
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0; /* Eliminar relleno interior */
+  }
+  
+  /* Asegurarse de que ocupe todo el ancho de la pantalla */
+  .navbar-expand-lg {
+    width: 100%;
+  }
+  
+  /* Alinear el texto en el centro */
+  .navbar-nav {
+    text-align: center;
+    width: 100%; /* Asegurar que el ancho sea el 100% para ocupar todo el espacio */
+    margin: 0; /* Eliminar margen exterior */
+    padding: 0; /* Eliminar relleno interior */
+  }
+  
+  /* Eliminar relleno y margen de los elementos de la lista en la navbar */
+  .navbar-nav .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Personalizar los enlaces en la navbar */
+  .navbar-nav .nav-item .nav-link {
+    color: red;
+    padding: 0.5rem 1rem; /* Agregar un poco de relleno para separar los elementos */
+  }
+  
+  /* Personalizar los enlaces desplegables */
+  .navbar-nav .dropdown-menu .dropdown-item {
+    color: red;
+    padding: 0.5rem 1rem; /* Agregar un poco de relleno para separar los elementos */
+  }
+  
